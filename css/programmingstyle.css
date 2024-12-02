@@ -1,0 +1,48 @@
+
+        /* Set the background color and text alignment for the entire page */
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Style the main heading */
+        h1 {
+            color: #2E8B57;
+            font-size: 2.5em;
+            margin: 20px;
+        }
+
+        /* Style the navigation bar */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            background-color: DodgerBlue;
+            border-radius: 8px;
+        }
+
+        /* Style each navigation link */
+        ul li {
+            margin: 0 15px;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.3s;
+            border-radius: 5px;
+        }
+
+        /* Hover effect for links */
+        ul li a:hover {
+            background-color: #104E8B;
+        }
